@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>studentsRecords</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="lol.js"></script>
+</head>
+<body>
+	<div class="center1">
+		<h1>Student Records</h1>
+		<p>Roll No</p>
+		<div class="txt_field">
+          <input type="text" required id="rol">
+        </div>
+        <p>Name</p>
+		<div class="txt_field">
+          <input type="text" required id="nam">
+        </div>
+		<input type="submit" value="Add New" onclick="add()">
+		<input type="submit" value="Delete" onclick="del()">
+
+    	<table class = "tablol "id="tab">
+		  <tr>
+		    <th>Roll No</th>
+		    <th>Name</th>
+		  </tr>
+		  <tr>
+		    <td>3</td>
+		    <td>Maria Anders</td>
+		  </tr>
+		  <tr>
+		    <td>6</td>
+		    <td>Francisco Chang</td>
+		  </tr>
+		</table>
+    </div>
+</body>
+</html>
